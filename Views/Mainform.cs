@@ -45,9 +45,15 @@ namespace RM
             Lbuser.Text = UsersReg.USER;
         }
 
-        private void HomeBttn_Click(object sender, EventArgs e)
+        private void btnHome_Click(object sender, EventArgs e)
         {
             AddControls(new FrmHome());
+        }
+
+
+        private void btnSettings_Click(object sender, EventArgs e)
+        {
+            AddControls(new Views.FrmSettings());
         }
     }
 }

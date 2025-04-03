@@ -25,3 +25,35 @@ C:\Users\esqco\Desktop\Clonadora\Visual Studio\RM\obj\Debug\net8.0-windows\RM.Fr
 C:\Users\esqco\Desktop\Clonadora\Visual Studio\RM\obj\Debug\net8.0-windows\RM.SampleAdd.resources
 C:\Users\esqco\Desktop\Clonadora\Visual Studio\RM\obj\Debug\net8.0-windows\RM.SampleView.resources
 C:\Users\esqco\Desktop\Clonadora\Visual Studio\RM\obj\Debug\net8.0-windows\RM.sourcelink.json
+C:\Users\Kevin\Desktop\LorianGroup\RM2\bin\Debug\net8.0-windows\RM.exe
+C:\Users\Kevin\Desktop\LorianGroup\RM2\bin\Debug\net8.0-windows\RM.deps.json
+C:\Users\Kevin\Desktop\LorianGroup\RM2\bin\Debug\net8.0-windows\RM.runtimeconfig.json
+C:\Users\Kevin\Desktop\LorianGroup\RM2\bin\Debug\net8.0-windows\RM.dll
+C:\Users\Kevin\Desktop\LorianGroup\RM2\bin\Debug\net8.0-windows\RM.pdb
+C:\Users\Kevin\Desktop\LorianGroup\RM2\bin\Debug\net8.0-windows\Guna.UI2.dll
+C:\Users\Kevin\Desktop\LorianGroup\RM2\bin\Debug\net8.0-windows\System.Management.dll
+C:\Users\Kevin\Desktop\LorianGroup\RM2\bin\Debug\net8.0-windows\runtimes\win\lib\net7.0\System.Management.dll
+C:\Users\Kevin\Desktop\LorianGroup\RM2\obj\Debug\net8.0-windows\RM.csproj.AssemblyReference.cache
+C:\Users\Kevin\Desktop\LorianGroup\RM2\obj\Debug\net8.0-windows\RM.Properties.Resources.resources
+C:\Users\Kevin\Desktop\LorianGroup\RM2\obj\Debug\net8.0-windows\RM.Views.FrmCreateInputs.resources
+C:\Users\Kevin\Desktop\LorianGroup\RM2\obj\Debug\net8.0-windows\RM.FrmHome.resources
+C:\Users\Kevin\Desktop\LorianGroup\RM2\obj\Debug\net8.0-windows\RM.Frmlog.resources
+C:\Users\Kevin\Desktop\LorianGroup\RM2\obj\Debug\net8.0-windows\RM.Views.FrmWindowEmergent.resources
+C:\Users\Kevin\Desktop\LorianGroup\RM2\obj\Debug\net8.0-windows\RM.Mainform.resources
+C:\Users\Kevin\Desktop\LorianGroup\RM2\obj\Debug\net8.0-windows\RM.SampleAdd.resources
+C:\Users\Kevin\Desktop\LorianGroup\RM2\obj\Debug\net8.0-windows\RM.SampleView.resources
+C:\Users\Kevin\Desktop\LorianGroup\RM2\obj\Debug\net8.0-windows\RM.csproj.GenerateResource.cache
+C:\Users\Kevin\Desktop\LorianGroup\RM2\obj\Debug\net8.0-windows\RM.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kevin\Desktop\LorianGroup\RM2\obj\Debug\net8.0-windows\RM.AssemblyInfoInputs.cache
+C:\Users\Kevin\Desktop\LorianGroup\RM2\obj\Debug\net8.0-windows\RM.AssemblyInfo.cs
+C:\Users\Kevin\Desktop\LorianGroup\RM2\obj\Debug\net8.0-windows\RM.csproj.CoreCompileInputs.cache
+C:\Users\Kevin\Desktop\LorianGroup\RM2\obj\Debug\net8.0-windows\RM.sourcelink.json
+C:\Users\Kevin\Desktop\LorianGroup\RM2\obj\Debug\net8.0-windows\RM.csproj.Up2Date
+C:\Users\Kevin\Desktop\LorianGroup\RM2\obj\Debug\net8.0-windows\RM.dll
+C:\Users\Kevin\Desktop\LorianGroup\RM2\obj\Debug\net8.0-windows\refint\RM.dll
+C:\Users\Kevin\Desktop\LorianGroup\RM2\obj\Debug\net8.0-windows\RM.pdb
+C:\Users\Kevin\Desktop\LorianGroup\RM2\obj\Debug\net8.0-windows\RM.genruntimeconfig.cache
+C:\Users\Kevin\Desktop\LorianGroup\RM2\obj\Debug\net8.0-windows\ref\RM.dll
+C:\Users\Kevin\Desktop\LorianGroup\RM2\obj\Debug\net8.0-windows\RM.Views.FrmCreateDishes.resources
+C:\Users\Kevin\Desktop\LorianGroup\RM2\obj\Debug\net8.0-windows\RM.Views.FrmSelectInputs.resources
+C:\Users\Kevin\Desktop\LorianGroup\RM2\obj\Debug\net8.0-windows\RM.Views.FrmSettings.resources

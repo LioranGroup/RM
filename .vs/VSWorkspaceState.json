@@ -1,9 +1,16 @@
 {
   "ExpandedNodes": [
+<<<<<<< HEAD
+    ""
+  ],
+  "SelectedNode": "\\RM.sln",
+  "PreviewInSolutionExplorer": false
+=======
     "",
     "\\Class",
     "\\Views"
   ],
   "SelectedNode": "\\Class\\Program.cs",
   "PreviewInSolutionExplorer": true
+>>>>>>> b2106812030268b0d3d98ad45fc17b0400f1b7d8
 }

@@ -1,5 +1,6 @@
 {
   "Version": 1,
+<<<<<<< HEAD
   "WorkspaceRootPath": "C:\\Users\\Kevin\\Desktop\\LorianGroup\\RM2\\",
   "Documents": [
     {
@@ -15,6 +16,10 @@
       "RelativeMoniker": "D:0:0:{86BBCF01-6374-4B1F-BA78-E10638D4A9EE}|RM.csproj|solutionrelative:views\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
+=======
+  "WorkspaceRootPath": "C:\\Users\\esqco\\Desktop\\Clonadora\\Visual Studio\\RM\\",
+  "Documents": [],
+>>>>>>> 8c5e6c05ef4769568700036ab964eeef86954ed0
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -29,6 +34,7 @@
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
             },
             {
+<<<<<<< HEAD
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "FrmSettings.cs",
@@ -65,6 +71,10 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-03T14:32:55.864Z",
               "EditorCaption": ""
+=======
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+>>>>>>> 8c5e6c05ef4769568700036ab964eeef86954ed0
             }
           ]
         }

@@ -7,6 +7,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SQLite;
+using RM.Model;
+
 
 namespace RM.Views
 {
@@ -15,8 +18,16 @@ namespace RM.Views
         public FrmSelectInputs()
         {
             InitializeComponent();
+            CargarIngredientes();
+        }
+
+        private void CargarIngredientes()
+        {
+            IngredientList.DataSource = Logica.Obteneringredientes();
         }
 
         
+
+
     }
 }

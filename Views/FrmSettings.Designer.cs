@@ -30,13 +30,15 @@
         {
             btncreateinputs = new Button();
             btncreatedishes = new Button();
+            ViewBttn = new Button();
             SuspendLayout();
             // 
             // btncreateinputs
             // 
-            btncreateinputs.Location = new Point(74, 38);
+            btncreateinputs.Location = new Point(137, 81);
+            btncreateinputs.Margin = new Padding(6, 6, 6, 6);
             btncreateinputs.Name = "btncreateinputs";
-            btncreateinputs.Size = new Size(156, 47);
+            btncreateinputs.Size = new Size(290, 100);
             btncreateinputs.TabIndex = 0;
             btncreateinputs.Text = "Crear un Ingrediente";
             btncreateinputs.UseVisualStyleBackColor = true;
@@ -44,21 +46,35 @@
             // 
             // btncreatedishes
             // 
-            btncreatedishes.Location = new Point(258, 38);
+            btncreatedishes.Location = new Point(479, 81);
+            btncreatedishes.Margin = new Padding(6, 6, 6, 6);
             btncreatedishes.Name = "btncreatedishes";
-            btncreatedishes.Size = new Size(156, 47);
+            btncreatedishes.Size = new Size(290, 100);
             btncreatedishes.TabIndex = 1;
             btncreatedishes.Text = "Crear un Platillo";
             btncreatedishes.UseVisualStyleBackColor = true;
             btncreatedishes.Click += btncreatedishes_Click;
             // 
+            // ViewBttn
+            // 
+            ViewBttn.Location = new Point(598, 430);
+            ViewBttn.Margin = new Padding(6);
+            ViewBttn.Name = "ViewBttn";
+            ViewBttn.Size = new Size(290, 100);
+            ViewBttn.TabIndex = 2;
+            ViewBttn.Text = "Inputs view";
+            ViewBttn.UseVisualStyleBackColor = true;
+            ViewBttn.Click += ViewBttn_Click;
+            // 
             // FrmSettings
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(13F, 32F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(1486, 960);
+            Controls.Add(ViewBttn);
             Controls.Add(btncreatedishes);
             Controls.Add(btncreateinputs);
+            Margin = new Padding(6, 6, 6, 6);
             Name = "FrmSettings";
             Text = "FrmSettings";
             ResumeLayout(false);
@@ -68,5 +84,6 @@
 
         private Button btncreateinputs;
         private Button btncreatedishes;
+        private Button ViewBttn;
     }
 }

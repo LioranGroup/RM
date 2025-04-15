@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using RM.Model;
+
 
 namespace RM.Views
 {
@@ -43,6 +45,8 @@ namespace RM.Views
                 lblprueba.Text = valores ;
                 lblprueba.Visible = true;
 
+                //agregar valores a base de datos en debug bin
+                Logica.InsertarIngrediante(txtname.Text,int.Parse(txtcantidad.Text),int.Parse(txtcriterio.Text));
 
                 ventanaEmergente.actualizar("Agregado Correctamente", "Succefull");
                 ventanaEmergente.ShowDialog();

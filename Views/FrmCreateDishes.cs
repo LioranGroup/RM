@@ -12,9 +12,12 @@ using RM.Model;
 
 namespace RM.Views
 {
+    
     public partial class FrmCreateDishes : Form
     {
         private FrmSelectInputs frmSelectInputs;
+        private string ingredientesSeleccionados = "";
+        private string cantidadesSeleccionadas = "";
 
         public FrmCreateDishes()
         {
@@ -26,18 +29,36 @@ namespace RM.Views
 
         private void btnagregaring_Click(object sender, EventArgs e)
         {
-            frmSelectInputs.ShowDialog();
+            //frmSelectInputs.ShowDialog();
+            var selectForm = new FrmSelectInputs();
+
+            if (selectForm.ShowDialog() == DialogResult.OK)
+            {
+                // Guardamos los valores recibidos en variables internas
+                ingredientesSeleccionados = selectForm.IngredientesConcatenados;
+                cantidadesSeleccionadas = selectForm.CantidadesConcatenadas;
+            }
         }
 
         private void btnagregarplt_Click(object sender, EventArgs e)
         {
             string Name = txtname.Text;
 
-            string Ingredientes = "Lechuga,pepino,tomate";
+            if (string.IsNullOrEmpty(Name) || string.IsNullOrEmpty(ingredientesSeleccionados))
+            {
+                MessageBox.Show("Debe ingresar un nombre de platillo y agregar al menos un ingrediente.");
+                return;
+            }
 
+            string Ingredientes = ingredientesSeleccionados + " - " + cantidadesSeleccionadas;
 
-            Logica.InsertarPlatillo(Name,Ingredientes);
+            Logica.InsertarPlatillo(Name, Ingredientes);
             cargarplatillo();
+
+            // Limpiar
+            ingredientesSeleccionados = "";
+            cantidadesSeleccionadas = "";
+            txtname.Clear();
 
         }
 

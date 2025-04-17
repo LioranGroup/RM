@@ -3,32 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\esqco\\Visual Studio\\RM\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{86BBCF01-6374-4B1F-BA78-E10638D4A9EE}|RM.csproj|C:\\Users\\esqco\\Visual Studio\\RM\\views\\frmcreatedishes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{86BBCF01-6374-4B1F-BA78-E10638D4A9EE}|RM.csproj|solutionrelative:views\\frmcreatedishes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{86BBCF01-6374-4B1F-BA78-E10638D4A9EE}|RM.csproj|c:\\users\\esqco\\visual studio\\rm\\views\\frmcreatedishes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86BBCF01-6374-4B1F-BA78-E10638D4A9EE}|RM.csproj|solutionrelative:views\\frmcreatedishes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{86BBCF01-6374-4B1F-BA78-E10638D4A9EE}|RM.csproj|c:\\users\\esqco\\visual studio\\rm\\model\\logica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{86BBCF01-6374-4B1F-BA78-E10638D4A9EE}|RM.csproj|solutionrelative:model\\logica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{86BBCF01-6374-4B1F-BA78-E10638D4A9EE}|RM.csproj|c:\\users\\esqco\\visual studio\\rm\\views\\frmcreatedishes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{86BBCF01-6374-4B1F-BA78-E10638D4A9EE}|RM.csproj|solutionrelative:views\\frmcreatedishes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{86BBCF01-6374-4B1F-BA78-E10638D4A9EE}|RM.csproj|c:\\users\\esqco\\visual studio\\rm\\views\\frmselectinputs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{86BBCF01-6374-4B1F-BA78-E10638D4A9EE}|RM.csproj|solutionrelative:views\\frmselectinputs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86BBCF01-6374-4B1F-BA78-E10638D4A9EE}|RM.csproj|C:\\Users\\esqco\\Visual Studio\\RM\\views\\frmselectinputs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{86BBCF01-6374-4B1F-BA78-E10638D4A9EE}|RM.csproj|solutionrelative:views\\frmselectinputs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{86BBCF01-6374-4B1F-BA78-E10638D4A9EE}|RM.csproj|c:\\users\\esqco\\visual studio\\rm\\views\\frmcreateinputs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{86BBCF01-6374-4B1F-BA78-E10638D4A9EE}|RM.csproj|solutionrelative:views\\frmcreateinputs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{86BBCF01-6374-4B1F-BA78-E10638D4A9EE}|RM.csproj|c:\\users\\esqco\\visual studio\\rm\\views\\frmsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{86BBCF01-6374-4B1F-BA78-E10638D4A9EE}|RM.csproj|solutionrelative:views\\frmsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{86BBCF01-6374-4B1F-BA78-E10638D4A9EE}|RM.csproj|C:\\Users\\esqco\\Visual Studio\\RM\\views\\frmselectinputs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{86BBCF01-6374-4B1F-BA78-E10638D4A9EE}|RM.csproj|solutionrelative:views\\frmselectinputs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{86BBCF01-6374-4B1F-BA78-E10638D4A9EE}|RM.csproj|C:\\Users\\esqco\\Visual Studio\\RM\\views\\frmcreatedishes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{86BBCF01-6374-4B1F-BA78-E10638D4A9EE}|RM.csproj|solutionrelative:views\\frmcreatedishes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{86BBCF01-6374-4B1F-BA78-E10638D4A9EE}|RM.csproj|C:\\Users\\esqco\\Visual Studio\\RM\\views\\frmsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -50,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -67,28 +63,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "FrmCreateDishes.cs",
-              "DocumentMoniker": "C:\\Users\\esqco\\Visual Studio\\RM\\Views\\FrmCreateDishes.cs",
-              "RelativeDocumentMoniker": "Views\\FrmCreateDishes.cs",
-              "ToolTip": "C:\\Users\\esqco\\Visual Studio\\RM\\Views\\FrmCreateDishes.cs",
-              "RelativeToolTip": "Views\\FrmCreateDishes.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAQwCMAAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T03:33:18.093Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "FrmSelectInputs.cs",
               "DocumentMoniker": "C:\\Users\\esqco\\Visual Studio\\RM\\Views\\FrmSelectInputs.cs",
               "RelativeDocumentMoniker": "Views\\FrmSelectInputs.cs",
               "ToolTip": "C:\\Users\\esqco\\Visual Studio\\RM\\Views\\FrmSelectInputs.cs",
               "RelativeToolTip": "Views\\FrmSelectInputs.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAAwBoAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAACsAAAAAAAAAAAAYwBIAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-15T03:06:57.357Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FrmSelectInputs.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\esqco\\Visual Studio\\RM\\Views\\FrmSelectInputs.cs",
+              "RelativeDocumentMoniker": "Views\\FrmSelectInputs.cs",
+              "ToolTip": "C:\\Users\\esqco\\Visual Studio\\RM\\Views\\FrmSelectInputs.cs [Design]",
+              "RelativeToolTip": "Views\\FrmSelectInputs.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T03:06:46.501Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
@@ -98,27 +93,27 @@
               "RelativeDocumentMoniker": "Views\\FrmCreateInputs.cs",
               "ToolTip": "C:\\Users\\esqco\\Visual Studio\\RM\\Views\\FrmCreateInputs.cs",
               "RelativeToolTip": "Views\\FrmCreateInputs.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAQwDIAAABTAAAAAAAAAA==",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAYwFwAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-13T01:07:39.289Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Logica.cs",
-              "DocumentMoniker": "C:\\Users\\esqco\\Visual Studio\\RM\\Model\\Logica.cs",
-              "RelativeDocumentMoniker": "Model\\Logica.cs",
-              "ToolTip": "C:\\Users\\esqco\\Visual Studio\\RM\\Model\\Logica.cs",
-              "RelativeToolTip": "Model\\Logica.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAgwE0AAAAJAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "FrmCreateDishes.cs",
+              "DocumentMoniker": "C:\\Users\\esqco\\Visual Studio\\RM\\Views\\FrmCreateDishes.cs",
+              "RelativeDocumentMoniker": "Views\\FrmCreateDishes.cs",
+              "ToolTip": "C:\\Users\\esqco\\Visual Studio\\RM\\Views\\FrmCreateDishes.cs",
+              "RelativeToolTip": "Views\\FrmCreateDishes.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAYwDwAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-13T00:50:47.26Z",
+              "WhenOpened": "2025-04-15T03:33:18.093Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "FrmCreateDishes.cs [Design]",
               "DocumentMoniker": "C:\\Users\\esqco\\Visual Studio\\RM\\Views\\FrmCreateDishes.cs",
               "RelativeDocumentMoniker": "Views\\FrmCreateDishes.cs",
@@ -130,31 +125,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "FrmSelectInputs.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\esqco\\Visual Studio\\RM\\Views\\FrmSelectInputs.cs",
-              "RelativeDocumentMoniker": "Views\\FrmSelectInputs.cs",
-              "ToolTip": "C:\\Users\\esqco\\Visual Studio\\RM\\Views\\FrmSelectInputs.cs [Design]",
-              "RelativeToolTip": "Views\\FrmSelectInputs.cs [Design]",
+              "DocumentIndex": 1,
+              "Title": "Logica.cs",
+              "DocumentMoniker": "C:\\Users\\esqco\\Visual Studio\\RM\\Model\\Logica.cs",
+              "RelativeDocumentMoniker": "Model\\Logica.cs",
+              "ToolTip": "C:\\Users\\esqco\\Visual Studio\\RM\\Model\\Logica.cs",
+              "RelativeToolTip": "Model\\Logica.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAkwFwAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T03:06:46.501Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "FrmSettings.cs",
-              "DocumentMoniker": "C:\\Users\\esqco\\Visual Studio\\RM\\Views\\FrmSettings.cs",
-              "RelativeDocumentMoniker": "Views\\FrmSettings.cs",
-              "ToolTip": "C:\\Users\\esqco\\Visual Studio\\RM\\Views\\FrmSettings.cs",
-              "RelativeToolTip": "Views\\FrmSettings.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAACgAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T03:21:02.645Z",
+              "WhenOpened": "2025-04-13T00:50:47.26Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "FrmSettings.cs [Design]",
               "DocumentMoniker": "C:\\Users\\esqco\\Visual Studio\\RM\\Views\\FrmSettings.cs",
               "RelativeDocumentMoniker": "Views\\FrmSettings.cs",
@@ -165,7 +149,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 8,
               "Title": "Connection.cs",
               "DocumentMoniker": "C:\\Users\\esqco\\Visual Studio\\RM\\Model\\Connection.cs",
               "RelativeDocumentMoniker": "Model\\Connection.cs",
@@ -177,7 +161,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 7,
               "Title": "FrmCreateInputs.cs [Design]",
               "DocumentMoniker": "C:\\Users\\esqco\\Visual Studio\\RM\\Views\\FrmCreateInputs.cs",
               "RelativeDocumentMoniker": "Views\\FrmCreateInputs.cs",

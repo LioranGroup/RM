@@ -9,8 +9,10 @@ namespace RM
 
         public Frmlog()
         {
-            InitializeComponent();
-            UsersReg.FindUserfile();
+            Mainform mainform = new Mainform();
+            mainform.Show();
+            //InitializeComponent();
+            //UsersReg.FindUserfile();
         }
 
         private void Exitbtt_Click(object sender, EventArgs e)

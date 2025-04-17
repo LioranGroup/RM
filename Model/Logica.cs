@@ -10,6 +10,10 @@ using System.Threading.Tasks;
 
 namespace RM.Model
 {
+    public class Logica2
+    {
+
+    }
     public class Logica
     {
         public static void InsertarIngrediante(string nombre, int Cantidad, int Criteria )

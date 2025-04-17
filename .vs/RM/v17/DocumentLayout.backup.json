@@ -1,18 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Kevin\\Desktop\\LorianGroup\\RM\\",
+  "WorkspaceRootPath": "C:\\Users\\esqco\\Visual Studio\\RM\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{86BBCF01-6374-4B1F-BA78-E10638D4A9EE}|RM.csproj|c:\\users\\kevin\\desktop\\loriangroup\\rm\\class\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{86BBCF01-6374-4B1F-BA78-E10638D4A9EE}|RM.csproj|solutionrelative:class\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{86BBCF01-6374-4B1F-BA78-E10638D4A9EE}|RM.csproj|c:\\users\\esqco\\visual studio\\rm\\views\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{86BBCF01-6374-4B1F-BA78-E10638D4A9EE}|RM.csproj|solutionrelative:views\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{86BBCF01-6374-4B1F-BA78-E10638D4A9EE}|RM.csproj|c:\\users\\kevin\\desktop\\loriangroup\\rm\\views\\frmlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{86BBCF01-6374-4B1F-BA78-E10638D4A9EE}|RM.csproj|solutionrelative:views\\frmlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{86BBCF01-6374-4B1F-BA78-E10638D4A9EE}|RM.csproj|c:\\users\\esqco\\visual studio\\rm\\views\\frmhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{86BBCF01-6374-4B1F-BA78-E10638D4A9EE}|RM.csproj|solutionrelative:views\\frmhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{86BBCF01-6374-4B1F-BA78-E10638D4A9EE}|RM.csproj|c:\\users\\kevin\\desktop\\loriangroup\\rm\\views\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{86BBCF01-6374-4B1F-BA78-E10638D4A9EE}|RM.csproj|solutionrelative:views\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{86BBCF01-6374-4B1F-BA78-E10638D4A9EE}|RM.csproj|c:\\users\\esqco\\visual studio\\rm\\model\\logica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86BBCF01-6374-4B1F-BA78-E10638D4A9EE}|RM.csproj|solutionrelative:model\\logica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,47 +22,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Kevin\\Desktop\\LorianGroup\\RM\\Class\\Program.cs",
-              "RelativeDocumentMoniker": "Class\\Program.cs",
-              "ToolTip": "C:\\Users\\Kevin\\Desktop\\LorianGroup\\RM\\Class\\Program.cs",
-              "RelativeToolTip": "Class\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T16:20:10.942Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Mainform.cs",
-              "DocumentMoniker": "C:\\Users\\Kevin\\Desktop\\LorianGroup\\RM\\Views\\Mainform.cs",
-              "RelativeDocumentMoniker": "Views\\Mainform.cs",
-              "ToolTip": "C:\\Users\\Kevin\\Desktop\\LorianGroup\\RM\\Views\\Mainform.cs",
-              "RelativeToolTip": "Views\\Mainform.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T16:17:23.694Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Frmlog.cs",
-              "DocumentMoniker": "C:\\Users\\Kevin\\Desktop\\LorianGroup\\RM\\Views\\Frmlog.cs",
-              "RelativeDocumentMoniker": "Views\\Frmlog.cs",
-              "ToolTip": "C:\\Users\\Kevin\\Desktop\\LorianGroup\\RM\\Views\\Frmlog.cs",
-              "RelativeToolTip": "Views\\Frmlog.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T16:16:53.799Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
@@ -72,8 +33,41 @@
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Mainform.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\esqco\\Visual Studio\\RM\\Views\\Mainform.cs",
+              "RelativeDocumentMoniker": "Views\\Mainform.cs",
+              "ToolTip": "C:\\Users\\esqco\\Visual Studio\\RM\\Views\\Mainform.cs [Design]",
+              "RelativeToolTip": "Views\\Mainform.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T18:44:03.977Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FrmHome.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\esqco\\Visual Studio\\RM\\Views\\FrmHome.cs",
+              "RelativeDocumentMoniker": "Views\\FrmHome.cs",
+              "ToolTip": "C:\\Users\\esqco\\Visual Studio\\RM\\Views\\FrmHome.cs [Design]",
+              "RelativeToolTip": "Views\\FrmHome.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T18:43:54.561Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Logica.cs",
+              "DocumentMoniker": "C:\\Users\\esqco\\Visual Studio\\RM\\Model\\Logica.cs",
+              "RelativeDocumentMoniker": "Model\\Logica.cs",
+              "ToolTip": "C:\\Users\\esqco\\Visual Studio\\RM\\Model\\Logica.cs",
+              "RelativeToolTip": "Model\\Logica.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T17:05:40.266Z",
+              "EditorCaption": ""
             }
           ]
         }

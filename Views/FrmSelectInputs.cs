@@ -32,7 +32,7 @@ namespace RM.Views
             IngredientList.DataSource = Logica.Obteneringredientes();
         }
 
-        private void IngredientList_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        private void IngredientList_CellClick(object sender, DataGridViewCellEventArgs e)
         {
             if (e.RowIndex >= 0)
             {

@@ -40,37 +40,33 @@
             // lblname
             // 
             lblname.AutoSize = true;
-            lblname.Location = new Point(325, 98);
-            lblname.Margin = new Padding(6, 0, 6, 0);
+            lblname.Location = new Point(175, 46);
             lblname.Name = "lblname";
-            lblname.Size = new Size(232, 32);
+            lblname.Size = new Size(115, 15);
             lblname.TabIndex = 0;
             lblname.Text = "Nombre del Platillo: ";
             // 
             // txtname
             // 
-            txtname.Location = new Point(550, 98);
-            txtname.Margin = new Padding(6);
+            txtname.Location = new Point(296, 46);
             txtname.Name = "txtname";
-            txtname.Size = new Size(444, 39);
+            txtname.Size = new Size(241, 23);
             txtname.TabIndex = 1;
             // 
             // lbltitulo
             // 
             lbltitulo.AutoSize = true;
-            lbltitulo.Location = new Point(628, 254);
-            lbltitulo.Margin = new Padding(6, 0, 6, 0);
+            lbltitulo.Location = new Point(338, 119);
             lbltitulo.Name = "lbltitulo";
-            lbltitulo.Size = new Size(265, 32);
+            lbltitulo.Size = new Size(130, 15);
             lbltitulo.TabIndex = 2;
             lbltitulo.Text = "Ingredientes del Platillo";
             // 
             // btnagregaring
             // 
-            btnagregaring.Location = new Point(591, 655);
-            btnagregaring.Margin = new Padding(6);
+            btnagregaring.Location = new Point(318, 307);
             btnagregaring.Name = "btnagregaring";
-            btnagregaring.Size = new Size(279, 66);
+            btnagregaring.Size = new Size(150, 31);
             btnagregaring.TabIndex = 6;
             btnagregaring.Text = "Agregar Ingrediente";
             btnagregaring.UseVisualStyleBackColor = true;
@@ -78,10 +74,9 @@
             // 
             // btnagregarplt
             // 
-            btnagregarplt.Location = new Point(566, 787);
-            btnagregarplt.Margin = new Padding(6);
+            btnagregarplt.Location = new Point(305, 369);
             btnagregarplt.Name = "btnagregarplt";
-            btnagregarplt.Size = new Size(334, 83);
+            btnagregarplt.Size = new Size(180, 39);
             btnagregarplt.TabIndex = 7;
             btnagregarplt.Text = "Agregar Platillo";
             btnagregarplt.UseVisualStyleBackColor = true;
@@ -89,25 +84,28 @@
             // 
             // Dishesview
             // 
+            Dishesview.AllowUserToAddRows = false;
+            Dishesview.AllowUserToDeleteRows = false;
             Dishesview.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            Dishesview.Location = new Point(453, 320);
+            Dishesview.Location = new Point(244, 150);
+            Dishesview.Margin = new Padding(2, 1, 2, 1);
             Dishesview.Name = "Dishesview";
+            Dishesview.ReadOnly = true;
             Dishesview.RowHeadersWidth = 82;
-            Dishesview.Size = new Size(563, 258);
+            Dishesview.Size = new Size(303, 121);
             Dishesview.TabIndex = 8;
             // 
             // FrmCreateDishes
             // 
-            AutoScaleDimensions = new SizeF(13F, 32F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1486, 960);
+            ClientSize = new Size(800, 450);
             Controls.Add(Dishesview);
             Controls.Add(btnagregarplt);
             Controls.Add(btnagregaring);
             Controls.Add(lbltitulo);
             Controls.Add(txtname);
             Controls.Add(lblname);
-            Margin = new Padding(6);
             Name = "FrmCreateDishes";
             Text = "Create Dishes";
             ((System.ComponentModel.ISupportInitialize)Dishesview).EndInit();

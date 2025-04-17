@@ -49,17 +49,15 @@
             menuStrip1.ImageScalingSize = new Size(32, 32);
             menuStrip1.Location = new Point(0, 0);
             menuStrip1.Name = "menuStrip1";
-            menuStrip1.Padding = new Padding(11, 4, 0, 4);
-            menuStrip1.Size = new Size(1113, 24);
+            menuStrip1.Size = new Size(599, 24);
             menuStrip1.TabIndex = 1;
             menuStrip1.Text = "menuStrip1";
             // 
             // btnagregar
             // 
-            btnagregar.Location = new Point(362, 675);
-            btnagregar.Margin = new Padding(6);
+            btnagregar.Location = new Point(195, 316);
             btnagregar.Name = "btnagregar";
-            btnagregar.Size = new Size(336, 79);
+            btnagregar.Size = new Size(181, 37);
             btnagregar.TabIndex = 2;
             btnagregar.Text = "Agregar";
             btnagregar.UseVisualStyleBackColor = true;
@@ -68,75 +66,81 @@
             // lbltitle
             // 
             lbltitle.AutoSize = true;
-            lbltitle.Location = new Point(170, 542);
-            lbltitle.Margin = new Padding(6, 0, 6, 0);
+            lbltitle.Location = new Point(92, 254);
             lbltitle.Name = "lbltitle";
-            lbltitle.Size = new Size(137, 32);
+            lbltitle.Size = new Size(67, 15);
             lbltitle.TabIndex = 3;
             lbltitle.Text = "Ingrediente";
             // 
             // lblname
             // 
             lblname.AutoSize = true;
-            lblname.Location = new Point(111, 597);
-            lblname.Margin = new Padding(6, 0, 6, 0);
+            lblname.Location = new Point(60, 280);
             lblname.Name = "lblname";
-            lblname.Size = new Size(272, 32);
+            lblname.Size = new Size(133, 15);
             lblname.TabIndex = 4;
             lblname.Text = "Nombre del ingrediente";
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(676, 542);
-            label1.Margin = new Padding(6, 0, 6, 0);
+            label1.Location = new Point(364, 254);
             label1.Name = "label1";
-            label1.Size = new Size(238, 32);
+            label1.Size = new Size(120, 15);
             label1.TabIndex = 5;
             label1.Text = "Cantidad por Porcion";
             // 
             // txtcantidad
             // 
-            txtcantidad.Location = new Point(696, 608);
-            txtcantidad.Margin = new Padding(6);
+            txtcantidad.Location = new Point(375, 285);
             txtcantidad.Name = "txtcantidad";
-            txtcantidad.Size = new Size(182, 39);
+            txtcantidad.Size = new Size(100, 23);
             txtcantidad.TabIndex = 6;
             // 
             // IngredientList
             // 
+            IngredientList.AllowUserToAddRows = false;
+            IngredientList.AllowUserToDeleteRows = false;
             IngredientList.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            IngredientList.Location = new Point(31, 27);
+            IngredientList.Location = new Point(17, 13);
+            IngredientList.Margin = new Padding(2, 1, 2, 1);
             IngredientList.Name = "IngredientList";
+            IngredientList.ReadOnly = true;
             IngredientList.RowHeadersWidth = 82;
-            IngredientList.Size = new Size(442, 481);
+            IngredientList.Size = new Size(238, 225);
             IngredientList.TabIndex = 7;
-            IngredientList.CellContentClick += IngredientList_CellContentClick;
+            IngredientList.CellClick += IngredientList_CellClick;
             // 
             // NuevosIng
             // 
+            NuevosIng.AllowUserToAddRows = false;
+            NuevosIng.AllowUserToDeleteRows = false;
             NuevosIng.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            NuevosIng.Location = new Point(598, 27);
+            NuevosIng.Location = new Point(322, 13);
+            NuevosIng.Margin = new Padding(2, 1, 2, 1);
             NuevosIng.Name = "NuevosIng";
+            NuevosIng.ReadOnly = true;
             NuevosIng.RowHeadersWidth = 82;
-            NuevosIng.Size = new Size(442, 481);
+            NuevosIng.Size = new Size(238, 225);
             NuevosIng.TabIndex = 8;
             // 
             // pictureBox1
             // 
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(479, 190);
+            pictureBox1.Location = new Point(258, 89);
+            pictureBox1.Margin = new Padding(2, 1, 2, 1);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(113, 115);
+            pictureBox1.Size = new Size(61, 54);
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox1.TabIndex = 9;
             pictureBox1.TabStop = false;
             // 
             // Savebttn
             // 
-            Savebttn.Location = new Point(890, 792);
+            Savebttn.Location = new Point(479, 371);
+            Savebttn.Margin = new Padding(2, 1, 2, 1);
             Savebttn.Name = "Savebttn";
-            Savebttn.Size = new Size(150, 46);
+            Savebttn.Size = new Size(81, 22);
             Savebttn.TabIndex = 10;
             Savebttn.Text = "Guardar";
             Savebttn.UseVisualStyleBackColor = true;
@@ -144,9 +148,9 @@
             // 
             // FrmSelectInputs
             // 
-            AutoScaleDimensions = new SizeF(13F, 32F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1113, 876);
+            ClientSize = new Size(599, 411);
             Controls.Add(Savebttn);
             Controls.Add(pictureBox1);
             Controls.Add(NuevosIng);
@@ -158,7 +162,6 @@
             Controls.Add(btnagregar);
             Controls.Add(menuStrip1);
             MainMenuStrip = menuStrip1;
-            Margin = new Padding(6);
             Name = "FrmSelectInputs";
             Text = "FrmSelectInputs";
             ((System.ComponentModel.ISupportInitialize)IngredientList).EndInit();

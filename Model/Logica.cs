@@ -10,46 +10,9 @@ using System.Threading.Tasks;
 
 namespace RM.Model
 {
-    public class Logica2
+    public class AddUsers
+        //Needs modification***********************************************************
     {
-
-    }
-    public class Logica
-    {
-        public static void InsertarIngrediante(string nombre, int Cantidad, int Criteria )
-        {
-            using (var conexion = Connection.ObtenerConexion())
-            {
-                string query = "INSERT INTO Ingredients (Name, Cantidad, Criteria) VALUES (@Name, @Cantidad, @Criteria)";
-                using (SQLiteCommand cmd = new SQLiteCommand(query, conexion))
-                {
-                    cmd.Parameters.AddWithValue("@Name", nombre);
-                    cmd.Parameters.AddWithValue("@Cantidad", Cantidad);
-                    cmd.Parameters.AddWithValue("@Criteria", Criteria);
-                    cmd.ExecuteNonQuery();
-                }
-            }
-
-
-        }
-        //Falta configurar las varables de las columnas
-        public static void InsertarPlatillo(string nombre, string Ingredientes)
-        {
-            using (var conexion = Connection.ObtenerConexion())
-            {
-                string query = "INSERT INTO Dishes (Name, Ingredients) VALUES (@Name, @Ingredientes)";
-                using (SQLiteCommand cmd = new SQLiteCommand(query, conexion))
-                {
-                    cmd.Parameters.AddWithValue("@Name", nombre);
-                    cmd.Parameters.AddWithValue("@Ingredientes", Ingredientes);
-                    
-                    cmd.ExecuteNonQuery();
-                }
-            }
-
-
-        }
-        //Falta configurar las varables de las columnas
         public static void InsertarUsuario(string nombre, int Cantidad, int Criteria)
         {
             using (var conexion = Connection.ObtenerConexion())
@@ -66,8 +29,54 @@ namespace RM.Model
 
 
         }
+    }
 
-        public static DataTable Obtenerplatillo()
+    public class AddConsumables
+
+    {
+        public static void InsertIngredient(string Name, int Quantity, int Minimum)
+        {
+            using (var conexion = Connection.ObtenerConexion())
+            {
+                string query = "INSERT INTO Ingredients (Name, Quantity, Minimum) VALUES (@Name, @Quantity, @Minimum)";
+                using (SQLiteCommand cmd = new SQLiteCommand(query, conexion))
+                {
+                    cmd.Parameters.AddWithValue("@Name", Name);
+                    cmd.Parameters.AddWithValue("@Quantity", Quantity);
+                    cmd.Parameters.AddWithValue("@Minimum", Minimum);
+                    cmd.ExecuteNonQuery();
+                }
+            }
+
+
+        }
+    }
+
+    public class AddDishes
+
+    {
+        public static void InsertDishes(string Name, string Ingredient)
+        {
+            using (var conexion = Connection.ObtenerConexion())
+            {
+                string query = "INSERT INTO Dishes (Name, Ingredients) VALUES (@Name, @Ingredient)";
+                using (SQLiteCommand cmd = new SQLiteCommand(query, conexion))
+                {
+                    cmd.Parameters.AddWithValue("@Name", Name);
+                    cmd.Parameters.AddWithValue("@Ingredientes", Ingredient);
+
+                    cmd.ExecuteNonQuery();
+                }
+            }
+
+
+        }
+    }
+
+    public class GetDishes
+
+    {
+        public static DataTable GetDish()
         {
             DataTable tabla = new DataTable();
             using (var conexion = Connection.ObtenerConexion())
@@ -80,9 +89,12 @@ namespace RM.Model
             }
             return tabla;
         }
+    }
 
+    public class GetAllIngredients
 
-        public static DataTable Obteneringredientes()
+    {
+        public static DataTable GetIngredients()
         {
             DataTable tabla = new DataTable();
             using (var conexion = Connection.ObtenerConexion())
@@ -96,5 +108,11 @@ namespace RM.Model
             return tabla;
         }
     }
+
+    
+
+    
+
+    
 
 }

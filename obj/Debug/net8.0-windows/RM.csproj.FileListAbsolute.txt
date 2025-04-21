@@ -174,3 +174,4 @@ C:\Users\Kevin\Desktop\LorianGroup\RM\obj\Debug\net8.0-windows\refint\RM.dll
 C:\Users\Kevin\Desktop\LorianGroup\RM\obj\Debug\net8.0-windows\RM.pdb
 C:\Users\Kevin\Desktop\LorianGroup\RM\obj\Debug\net8.0-windows\RM.genruntimeconfig.cache
 C:\Users\Kevin\Desktop\LorianGroup\RM\obj\Debug\net8.0-windows\ref\RM.dll
+C:\Users\esqco\Visual Studio\RM\obj\Debug\net8.0-windows\RM.Views.FrmTest.resources

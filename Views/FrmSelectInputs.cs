@@ -29,7 +29,7 @@ namespace RM.Views
 
         private void CargarIngredientes()
         {
-            IngredientList.DataSource = Logica.Obteneringredientes();
+           // IngredientList.DataSource = Logica.Obteneringredientes();
         }
 
         private void IngredientList_CellClick(object sender, DataGridViewCellEventArgs e)

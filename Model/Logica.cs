@@ -10,20 +10,33 @@ using System.Threading.Tasks;
 
 namespace RM.Model
 {
-    public class AddUsers
     //Needs modification***********************************************************
+    public class AddUsers
     {
-        public static void InsertarUsuario(string nombre, int Cantidad, int Criteria)
+        public static void InsertarUsuario(string Name, int Admin, int Mang, string Pssw)
         {
-            using (var conexion = Connection.ObtenerConexion())
+             using (var conexion = Connection.ObtenerConexion())
             {
-                string query = "INSERT INTO Ingredients (Name, Cantidad, Criteria) VALUES (@Name, @Cantidad, @Criteria)";
+                string query = "INSERT INTO Users (Name, Admin, Mang) VALUES (@Name, @Admin, @Mang)";
                 using (SQLiteCommand cmd = new SQLiteCommand(query, conexion))
                 {
-                    cmd.Parameters.AddWithValue("@Name", nombre);
-                    cmd.Parameters.AddWithValue("@Cantidad", Cantidad);
-                    cmd.Parameters.AddWithValue("@Criteria", Criteria);
+                    cmd.Parameters.AddWithValue("@Name", Name);
+                    cmd.Parameters.AddWithValue("@Admin", Admin);
+                    cmd.Parameters.AddWithValue("@Mang", Mang);
                     cmd.ExecuteNonQuery();
+
+                    if (Admin == 1 || Mang == 1) 
+                    {
+                        MessageBox.Show("si");
+                        query = "INSERT INTO Admin (Name, Pssw, Adm) VALUES (@Name, @Pssw, @Admin)";
+                        using (SQLiteCommand cmd1 = new SQLiteCommand(query, conexion))
+                        {
+                            cmd1.Parameters.AddWithValue("@Name", Name);
+                            cmd1.Parameters.AddWithValue("@Pssw", Pssw);
+                            cmd1.Parameters.AddWithValue("@Admin", Admin);
+                            cmd1.ExecuteNonQuery();
+                        }
+                    }
                 }
             }
 
@@ -51,6 +64,28 @@ namespace RM.Model
 
         }
     }
+
+
+    public class ModifyIngredientsQty
+
+    {
+        public static void Modify(int Idnum, int Quantity)
+        {
+            using (var conexion = Connection.ObtenerConexion())
+            {
+                string query = "Update Ingredients set Cantidad = @Quantity where ID = @Idnum";
+                using (SQLiteCommand cmd = new SQLiteCommand(query, conexion))
+                {
+                    cmd.Parameters.AddWithValue("@Idnum", Idnum);
+                    cmd.Parameters.AddWithValue("@Quantity", Quantity);
+                    cmd.ExecuteNonQuery();
+                }
+            }
+
+
+        }
+    }
+
 
     public class AddDishes
 
@@ -99,7 +134,7 @@ namespace RM.Model
             DataTable tabla = new DataTable();
             using (var conexion = Connection.ObtenerConexion())
             {
-                string query = "SELECT Name FROM Ingredients";
+                string query = "SELECT * FROM Ingredients";
                 using (SQLiteDataAdapter adaptador = new SQLiteDataAdapter(query, conexion))
                 {
                     adaptador.Fill(tabla);
@@ -109,7 +144,41 @@ namespace RM.Model
         }
     }
 
+    public class GetAllUsers
 
+    {
+        public static DataTable GetUsers()
+        {
+            DataTable tabla = new DataTable();
+            using (var conexion = Connection.ObtenerConexion())
+            {
+                string query = "SELECT * FROM Users";
+                using (SQLiteDataAdapter adaptador = new SQLiteDataAdapter(query, conexion))
+                {
+                    adaptador.Fill(tabla);
+                }
+            }
+            return tabla;
+        }
+    }
+
+    public class GetAllAdm
+
+    {
+        public static DataTable GetAdm()
+        {
+            DataTable tabla = new DataTable();
+            using (var conexion = Connection.ObtenerConexion())
+            {
+                string query = "SELECT * FROM Admin";
+                using (SQLiteDataAdapter adaptador = new SQLiteDataAdapter(query, conexion))
+                {
+                    adaptador.Fill(tabla);
+                }
+            }
+            return tabla;
+        }
+    }
 
 
 

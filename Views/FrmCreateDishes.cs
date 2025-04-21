@@ -23,7 +23,7 @@ namespace RM.Views
         {
             InitializeComponent();
             frmSelectInputs = new FrmSelectInputs();
-            cargarplatillo();
+            //cargarplatillo();
 
         }
 
@@ -52,7 +52,7 @@ namespace RM.Views
 
             string Ingredientes = ingredientesSeleccionados + " - " + cantidadesSeleccionadas;
 
-            Logica.InsertarPlatillo(Name, Ingredientes);
+            //Logica.InsertarPlatillo(Name, Ingredientes);
             cargarplatillo();
 
             // Limpiar
@@ -64,7 +64,7 @@ namespace RM.Views
 
         private void cargarplatillo()
         {
-            Dishesview.DataSource = Logica.Obtenerplatillo();
+            //Dishesview.DataSource = Logica.Obtenerplatillo();
         }
     }
 }

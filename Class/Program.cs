@@ -1,3 +1,5 @@
+using RM.Views;
+
 namespace RM.Class
 {
     internal static class Program
@@ -11,7 +13,7 @@ namespace RM.Class
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
-            Application.Run(new Mainform());
+            Application.Run(new FrmTest());
         }
     }
 }

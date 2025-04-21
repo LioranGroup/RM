@@ -46,7 +46,7 @@ namespace RM.Views
                 lblprueba.Visible = true;
 
                 //agregar valores a base de datos en debug bin
-                Logica.InsertarIngrediante(txtname.Text,int.Parse(txtcantidad.Text),int.Parse(txtcriterio.Text));
+                //Logica.InsertarIngrediante(txtname.Text,int.Parse(txtcantidad.Text),int.Parse(txtcriterio.Text));
 
                 ventanaEmergente.actualizar("Agregado Correctamente", "Succefull");
                 ventanaEmergente.ShowDialog();

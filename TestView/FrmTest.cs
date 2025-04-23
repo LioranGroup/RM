@@ -27,22 +27,22 @@ namespace RM.Views
 
         private void UsersTable()
         {
-            UsersView.DataSource = GetAllUsers.GetUsers();
+            UsersView.DataSource = Users.Get();
         }
 
         private void IngTable()
         {
-            IngView.DataSource = GetAllIngredients.GetIngredients();
+            IngView.DataSource = Ingredients.Get();
         }
 
         private void DishTable()
         {
-            Dishview.DataSource = GetDishes.GetDish();
+            Dishview.DataSource = Dishes.Get();
         }
 
         private void AdmTable()
         {
-            AdminView.DataSource = GetAllAdm.GetAdm();
+            AdminView.DataSource = Users.GetAdm();
         }
 
         private void btnAddUser_Click(object sender, EventArgs e)
@@ -54,7 +54,7 @@ namespace RM.Views
                 {
                     Adm = 1;
                     Mang = 0;
-                    if (Pssw != "" ) { AddUsers.InsertarUsuario(Name, Adm, Mang, Pssw); }
+                    if (Pssw != "" ) { Users.Add(Name, Adm, Mang, Pssw); }
                     else { MessageBox.Show("Plese add a password"); }
                     AdmTable();
                     
@@ -63,7 +63,7 @@ namespace RM.Views
                 {
                     Mang = 1;
                     Adm = 0;
-                    if (Pssw != "") { AddUsers.InsertarUsuario(Name, Adm, Mang, Pssw); }
+                    if (Pssw != "") { Users.Add(Name, Adm, Mang, Pssw); }
                     else { MessageBox.Show("Plese add a password"); }
                     AdmTable();
                 }

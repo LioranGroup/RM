@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\esqco\\Visual Studio\\RM\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{86BBCF01-6374-4B1F-BA78-E10638D4A9EE}|RM.csproj|c:\\users\\esqco\\visual studio\\rm\\model\\logica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{86BBCF01-6374-4B1F-BA78-E10638D4A9EE}|RM.csproj|solutionrelative:model\\logica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{86BBCF01-6374-4B1F-BA78-E10638D4A9EE}|RM.csproj|c:\\users\\esqco\\visual studio\\rm\\model\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86BBCF01-6374-4B1F-BA78-E10638D4A9EE}|RM.csproj|solutionrelative:model\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86BBCF01-6374-4B1F-BA78-E10638D4A9EE}|RM.csproj|c:\\users\\esqco\\visual studio\\rm\\model\\dishes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86BBCF01-6374-4B1F-BA78-E10638D4A9EE}|RM.csproj|solutionrelative:model\\dishes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{86BBCF01-6374-4B1F-BA78-E10638D4A9EE}|RM.csproj|c:\\users\\esqco\\visual studio\\rm\\model\\ingredients.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{86BBCF01-6374-4B1F-BA78-E10638D4A9EE}|RM.csproj|solutionrelative:model\\ingredients.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{86BBCF01-6374-4B1F-BA78-E10638D4A9EE}|RM.csproj|c:\\users\\esqco\\visual studio\\rm\\model\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{86BBCF01-6374-4B1F-BA78-E10638D4A9EE}|RM.csproj|solutionrelative:model\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{86BBCF01-6374-4B1F-BA78-E10638D4A9EE}|RM.csproj|c:\\users\\esqco\\visual studio\\rm\\testview\\frmtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,46 +30,33 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Logica.cs",
-              "DocumentMoniker": "C:\\Users\\esqco\\Visual Studio\\RM\\Model\\Logica.cs",
-              "RelativeDocumentMoniker": "Model\\Logica.cs",
-              "ToolTip": "C:\\Users\\esqco\\Visual Studio\\RM\\Model\\Logica.cs",
-              "RelativeToolTip": "Model\\Logica.cs",
-              "ViewState": "AgIAAD4AAAAAAAAAAAAswBwAAAAIAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "FrmTest.cs",
+              "DocumentMoniker": "C:\\Users\\esqco\\Visual Studio\\RM\\TestView\\FrmTest.cs",
+              "RelativeDocumentMoniker": "TestView\\FrmTest.cs",
+              "ToolTip": "C:\\Users\\esqco\\Visual Studio\\RM\\TestView\\FrmTest.cs",
+              "RelativeToolTip": "TestView\\FrmTest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEEAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T23:07:53.834Z",
+              "WhenOpened": "2025-04-21T00:26:40.321Z",
               "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Ingredients.cs",
-              "DocumentMoniker": "C:\\Users\\esqco\\Visual Studio\\RM\\Model\\Ingredients.cs",
-              "RelativeDocumentMoniker": "Model\\Ingredients.cs",
-              "ToolTip": "C:\\Users\\esqco\\Visual Studio\\RM\\Model\\Ingredients.cs",
-              "RelativeToolTip": "Model\\Ingredients.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAQwDUAAAAFAAAAAAAAAA==",
+              "Title": "Dishes.cs",
+              "DocumentMoniker": "C:\\Users\\esqco\\Visual Studio\\RM\\Model\\Dishes.cs",
+              "RelativeDocumentMoniker": "Model\\Dishes.cs",
+              "ToolTip": "C:\\Users\\esqco\\Visual Studio\\RM\\Model\\Dishes.cs",
+              "RelativeToolTip": "Model\\Dishes.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-21T03:44:07.161Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Users.cs",
-              "DocumentMoniker": "C:\\Users\\esqco\\Visual Studio\\RM\\Model\\Users.cs",
-              "RelativeDocumentMoniker": "Model\\Users.cs",
-              "ToolTip": "C:\\Users\\esqco\\Visual Studio\\RM\\Model\\Users.cs",
-              "RelativeToolTip": "Model\\Users.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-21T03:40:21.996Z",
+              "WhenOpened": "2025-04-23T01:50:23.091Z",
               "EditorCaption": ""
             },
             {
@@ -82,6 +69,32 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Ingredients.cs",
+              "DocumentMoniker": "C:\\Users\\esqco\\Visual Studio\\RM\\Model\\Ingredients.cs",
+              "RelativeDocumentMoniker": "Model\\Ingredients.cs",
+              "ToolTip": "C:\\Users\\esqco\\Visual Studio\\RM\\Model\\Ingredients.cs",
+              "RelativeToolTip": "Model\\Ingredients.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T03:44:07.161Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Users.cs",
+              "DocumentMoniker": "C:\\Users\\esqco\\Visual Studio\\RM\\Model\\Users.cs",
+              "RelativeDocumentMoniker": "Model\\Users.cs",
+              "ToolTip": "C:\\Users\\esqco\\Visual Studio\\RM\\Model\\Users.cs",
+              "RelativeToolTip": "Model\\Users.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T03:40:21.996Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 4,
               "Title": "FrmTest.cs [Design]",
               "DocumentMoniker": "C:\\Users\\esqco\\Visual Studio\\RM\\TestView\\FrmTest.cs",
@@ -90,18 +103,6 @@
               "RelativeToolTip": "TestView\\FrmTest.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-21T01:50:24.542Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "FrmTest.cs",
-              "DocumentMoniker": "C:\\Users\\esqco\\Visual Studio\\RM\\TestView\\FrmTest.cs",
-              "RelativeDocumentMoniker": "TestView\\FrmTest.cs",
-              "ToolTip": "C:\\Users\\esqco\\Visual Studio\\RM\\TestView\\FrmTest.cs",
-              "RelativeToolTip": "TestView\\FrmTest.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAwwEMAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-21T00:26:40.321Z"
             }
           ]
         }

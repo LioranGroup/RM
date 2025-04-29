@@ -15,7 +15,7 @@ namespace RM.Model
         {
             using (var conexion = Connection.ObtenerConexion())
             {
-                string query = "SELECT COUNT(*) FROM Admin WHERE Name = @Name AND Pssw = @Pssw";
+                string query = "SELECT COUNT(*) FROM users WHERE Name = @Name AND Pssw = @Pssw";
                 using (SQLiteCommand cmd = new SQLiteCommand(query, conexion))
                 {
                     cmd.Parameters.AddWithValue("@Name", Name);
@@ -27,22 +27,22 @@ namespace RM.Model
                 }
             }
         }
-        public static void Add (string Name, int Admin, int Mang, string Pssw)
+        public static void Add (string Name, string Admin, string Mang, string Pssw)
         {
             using (var conexion = Connection.ObtenerConexion())
             {
-                string query = "INSERT INTO Users (Name, Admin, Mang) VALUES (@Name, @Admin, @Mang)";
+                string query = "INSERT INTO Users (Name, Admin) VALUES (@Name, @Admin)";
                 using (SQLiteCommand cmd = new SQLiteCommand(query, conexion))
                 {
                     cmd.Parameters.AddWithValue("@Name", Name);
                     cmd.Parameters.AddWithValue("@Admin", Admin);
-                    cmd.Parameters.AddWithValue("@Mang", Mang);
                     cmd.ExecuteNonQuery();
 
-                    if (Admin == 1 || Mang == 1)
+                    if (Admin == "true")
                     {
                         //MessageBox.Show("si");
-                        query = "INSERT INTO Admin (Name, Pssw, Adm) VALUES (@Name, @Pssw, @Admin)";
+                        string search = "select last_value(id)";
+                        query = "update  users set pssw = @Pssw where name = @name";
                         using (SQLiteCommand cmd1 = new SQLiteCommand(query, conexion))
                         {
                             cmd1.Parameters.AddWithValue("@Name", Name);

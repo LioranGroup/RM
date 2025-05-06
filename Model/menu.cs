@@ -5,7 +5,7 @@ using System.Data;
 
 namespace RM.Model
 {
-    internal class Dishes
+    internal class menu
     {
     
         public static void Add(string Name, string Ingredient)

@@ -37,7 +37,7 @@ namespace RM.Views
 
         private void DishTable()
         {
-            Dishview.DataSource = Dishes.Get();
+            Dishview.DataSource = menu.Get();
         }
 
         private void AdmTable()

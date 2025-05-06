@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace RM.Model
 {
-    internal class Type
+    internal class categories
     {
         public static void Add (string name, string Type, int id)
         {

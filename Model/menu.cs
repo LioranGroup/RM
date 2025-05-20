@@ -31,7 +31,7 @@ namespace RM.Model
             DataTable tabla = new DataTable();
             using (var conexion = Connection.ObtenerConexion())
             {
-                string query = "SELECT * FROM Dishes";
+                string query = "SELECT * FROM menu";
                 using (SQLiteDataAdapter adaptador = new SQLiteDataAdapter(query, conexion))
                 {
                     adaptador.Fill(tabla);

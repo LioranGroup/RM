@@ -14,8 +14,7 @@ namespace RM.Views
 {
     public partial class FrmTest : Form
     {
-        int Adm = 0;
-        int Mang = 0;
+        int position = 0;
         public FrmTest()
         {
             InitializeComponent();
@@ -52,18 +51,16 @@ namespace RM.Views
                 string Pssw = txtPssw.Text;
                 if (CbxPos.SelectedIndex == 0)
                 {
-                    Adm = 1;
-                    Mang = 0;
-                    if (Pssw != "" ) { Users.Add(Name, Adm, Mang, Pssw); }
+                position = 0;
+                    if (Pssw != "" ) { Users.Add(Name, position, Pssw); }
                     else { MessageBox.Show("Plese add a password"); }
                     AdmTable();
                     
                 }
                 if (CbxPos.SelectedIndex == 1)
                 {
-                    Mang = 1;
-                    Adm = 0;
-                    if (Pssw != "") { Users.Add(Name, Adm, Mang, Pssw); }
+                   position = 1;
+                    if (Pssw != "") { Users.Add(Name, position, Pssw); }
                     else { MessageBox.Show("Plese add a password"); }
                     AdmTable();
                 }

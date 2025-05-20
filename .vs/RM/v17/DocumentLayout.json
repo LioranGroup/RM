@@ -7,12 +7,28 @@
       "RelativeMoniker": "D:0:0:{86BBCF01-6374-4B1F-BA78-E10638D4A9EE}|RM.csproj|solutionrelative:model\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{86BBCF01-6374-4B1F-BA78-E10638D4A9EE}|RM.csproj|c:\\users\\esqco\\visual studio\\rm\\model\\categories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86BBCF01-6374-4B1F-BA78-E10638D4A9EE}|RM.csproj|solutionrelative:model\\categories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{86BBCF01-6374-4B1F-BA78-E10638D4A9EE}|RM.csproj|c:\\users\\esqco\\visual studio\\rm\\model\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{86BBCF01-6374-4B1F-BA78-E10638D4A9EE}|RM.csproj|solutionrelative:model\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{86BBCF01-6374-4B1F-BA78-E10638D4A9EE}|RM.csproj|c:\\users\\esqco\\visual studio\\rm\\model\\categories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{86BBCF01-6374-4B1F-BA78-E10638D4A9EE}|RM.csproj|solutionrelative:model\\categories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{86BBCF01-6374-4B1F-BA78-E10638D4A9EE}|RM.csproj|c:\\users\\esqco\\visual studio\\rm\\model\\inputs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86BBCF01-6374-4B1F-BA78-E10638D4A9EE}|RM.csproj|solutionrelative:model\\inputs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86BBCF01-6374-4B1F-BA78-E10638D4A9EE}|RM.csproj|c:\\users\\esqco\\visual studio\\rm\\views\\frmhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{86BBCF01-6374-4B1F-BA78-E10638D4A9EE}|RM.csproj|solutionrelative:views\\frmhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86BBCF01-6374-4B1F-BA78-E10638D4A9EE}|RM.csproj|C:\\Users\\esqco\\Visual Studio\\RM\\views\\sampleadd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{86BBCF01-6374-4B1F-BA78-E10638D4A9EE}|RM.csproj|solutionrelative:views\\sampleadd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86BBCF01-6374-4B1F-BA78-E10638D4A9EE}|RM.csproj|C:\\Users\\esqco\\Visual Studio\\RM\\testview\\frmtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{86BBCF01-6374-4B1F-BA78-E10638D4A9EE}|RM.csproj|solutionrelative:testview\\frmtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,24 +38,75 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 7,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
+              "Title": "inputs.cs",
+              "DocumentMoniker": "C:\\Users\\esqco\\Visual Studio\\RM\\Model\\inputs.cs",
+              "RelativeDocumentMoniker": "Model\\inputs.cs",
+              "ToolTip": "C:\\Users\\esqco\\Visual Studio\\RM\\Model\\inputs.cs",
+              "RelativeToolTip": "Model\\inputs.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T00:04:21.312Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FrmHome.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\esqco\\Visual Studio\\RM\\Views\\FrmHome.cs",
+              "RelativeDocumentMoniker": "Views\\FrmHome.cs",
+              "ToolTip": "C:\\Users\\esqco\\Visual Studio\\RM\\Views\\FrmHome.cs [Design]",
+              "RelativeToolTip": "Views\\FrmHome.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T19:42:27.224Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SampleAdd.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\esqco\\Visual Studio\\RM\\Views\\SampleAdd.cs",
+              "RelativeDocumentMoniker": "Views\\SampleAdd.cs",
+              "ToolTip": "C:\\Users\\esqco\\Visual Studio\\RM\\Views\\SampleAdd.cs [Design]",
+              "RelativeToolTip": "Views\\SampleAdd.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T19:42:06.482Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FrmTest.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\esqco\\Visual Studio\\RM\\TestView\\FrmTest.cs",
+              "RelativeDocumentMoniker": "TestView\\FrmTest.cs",
+              "ToolTip": "C:\\Users\\esqco\\Visual Studio\\RM\\TestView\\FrmTest.cs [Design]",
+              "RelativeToolTip": "TestView\\FrmTest.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T19:38:25.465Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "menu.cs",
               "DocumentMoniker": "C:\\Users\\esqco\\Visual Studio\\RM\\Model\\menu.cs",
               "RelativeDocumentMoniker": "Model\\menu.cs",
               "ToolTip": "C:\\Users\\esqco\\Visual Studio\\RM\\Model\\menu.cs",
               "RelativeToolTip": "Model\\menu.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwCEAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-06T01:20:45.952Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "categories.cs",
               "DocumentMoniker": "C:\\Users\\esqco\\Visual Studio\\RM\\Model\\categories.cs",
               "RelativeDocumentMoniker": "Model\\categories.cs",
@@ -51,10 +118,6 @@
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
-            },
-            {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Users.cs",
@@ -62,7 +125,7 @@
               "RelativeDocumentMoniker": "Model\\Users.cs",
               "ToolTip": "C:\\Users\\esqco\\Visual Studio\\RM\\Model\\Users.cs",
               "RelativeToolTip": "Model\\Users.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAHsAAAAAAAAAAAAAwH4AAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-26T20:43:03.857Z",
               "EditorCaption": ""

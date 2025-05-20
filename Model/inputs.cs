@@ -15,7 +15,7 @@ namespace RM.Model
             DataTable tabla = new DataTable();
             using (var conexion = Connection.ObtenerConexion())
             {
-                string query = "SELECT * FROM Ingredients";
+                string query = "SELECT * FROM inputs";
                 using (SQLiteDataAdapter adaptador = new SQLiteDataAdapter(query, conexion))
                 {
                     adaptador.Fill(tabla);

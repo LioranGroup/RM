@@ -15,7 +15,7 @@ namespace RM.Model
         {
             using (var conexion = Connection.ObtenerConexion())
             {
-                string query = "SELECT COUNT(*) FROM users WHERE Name = @Name AND Pssw = @Pssw";
+                string query = "SELECT COUNT(*) FROM view_users_pssw WHERE user_name = @Name AND pssw = @Pssw";
                 using (SQLiteCommand cmd = new SQLiteCommand(query, conexion))
                 {
                     cmd.Parameters.AddWithValue("@Name", Name);
@@ -27,34 +27,33 @@ namespace RM.Model
                 }
             }
         }
-        public static void Add (string Name, string Admin, string Mang, string Pssw)
+        public static void Add (string name, int position, string pssw)
         {
             using (var conexion = Connection.ObtenerConexion())
             {
-                string query = "INSERT INTO Users (Name, Admin) VALUES (@Name, @Admin)";
+                string query = "INSERT INTO Users (user_name, position) VALUES (@Name, @position)";
                 using (SQLiteCommand cmd = new SQLiteCommand(query, conexion))
                 {
-                    cmd.Parameters.AddWithValue("@Name", Name);
-                    cmd.Parameters.AddWithValue("@Admin", Admin);
+                    cmd.Parameters.AddWithValue("@Name", name);
+                    cmd.Parameters.AddWithValue("@position", position);
                     cmd.ExecuteNonQuery();
-
-                    if (Admin == "true")
+                }
+                if (position == 1)
+                {
+                            //MessageBox.Show("si");
+                    query = "update  users set pssw = @Pssw where name = @name";
+                    using (SQLiteCommand cmd1 = new SQLiteCommand(query, conexion))
                     {
-                        //MessageBox.Show("si");
-                        string search = "select last_value(id)";
-                        query = "update  users set pssw = @Pssw where name = @name";
-                        using (SQLiteCommand cmd1 = new SQLiteCommand(query, conexion))
-                        {
-                            cmd1.Parameters.AddWithValue("@Name", Name);
-                            cmd1.Parameters.AddWithValue("@Pssw", Pssw);
-                            cmd1.Parameters.AddWithValue("@Admin", Admin);
-                            cmd1.ExecuteNonQuery();
-                        }
+                        cmd1.Parameters.AddWithValue("@Name", name);
+                        cmd1.Parameters.AddWithValue("@Pssw", pssw);
+                        cmd1.Parameters.AddWithValue("@Admin", position);
+                        cmd1.ExecuteNonQuery();
                     }
                 }
             }
-
         }
+
+        
 
         public static void Update(int Idnum, string Name)
         {
@@ -140,7 +139,7 @@ namespace RM.Model
             DataTable tabla = new DataTable();
             using (var conexion = Connection.ObtenerConexion())
             {
-                string query = "SELECT * FROM Admin";
+                string query = "SELECT * FROM users where position = 1";
                 using (SQLiteDataAdapter adaptador = new SQLiteDataAdapter(query, conexion))
                 {
                     adaptador.Fill(tabla);
